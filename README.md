@@ -1,8 +1,8 @@
 ### This project is created by Ahmad Samiee
 
-<img src="Visuals/online_shopping.jpeg">
-
 # Predict Customer Purchase Intention
+
+<img src="Visuals/online_shopping.jpeg">
 
 # Business Problem
 An online retailer wants to optimize profit margin based on visitors intent of purchase. The retailer is setting up a personalized customer experience where a visitor who is identified as some one that will make a purchase may not receive a discount. On the other hand a visitor who is identified as some one that does not intent on purchasing may be offered a promotional discount to incentivize the visitor to make a purchase.<br>
