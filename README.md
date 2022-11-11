@@ -1,8 +1,10 @@
 ### This project is created by Ahmad Samiee
 
-<img src="Visuals/online_shopping.jpeg">
+
 
 # Predict Customer Purchase Intention
+
+<img src="Visuals/online_shopping.jpeg">
 
 ## Project Overview
 
@@ -12,6 +14,7 @@ This project will predict customers' intention to purchase for an online retaile
 The metric recall is choosen as the primary metric as this measures how correctly a model can predict those customers who actually purchase. The best model has recall of about 92% where it correctly predicts 92% of all customers who actually purchase.  It also correctly predict the majority (about 70%) of customers who do not.  A second best model has a recall of about 99% but it mis-predicts the majority of customers who do not purchase. 
 
 ## Business Problem
+
 An online retailer wants to optimize profit margin based on visitors intent of purchase. The retailer is setting up a personalized customer experience where a visitor who is identified as some one that will make a purchase may not receive a discount. On the other hand a visitor who is identified as some one that does not intent on purchasing may be offered a promotional discount to incentivize the visitor to make a purchase.<br>
 To predict website visitors who actually will purchase the metric recall will be used. Recall takes false negatives (visitors who actually purchase but model predicts they do not) into consideration and therefore is a good measure of model's performance whether it can correctly identify all those visitors whose intention is to purchase.<br>
 
