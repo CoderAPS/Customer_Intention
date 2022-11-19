@@ -28,10 +28,16 @@ Duplicate records were dropped. Created a new column 'mod_Revenue' and converted
 
 ## Feature Selection
 Evaluated feature selection to see the noise in the data can be reduced. Data's features were evaluated with sklearn SelectKBest and recursive feature elimination with cross-validation. A method discussed in a paper (Assessing feature selection method performance with class imbalance data, Surani Matharaarachchi et al., Machine Learning with Applications, 2021) was also evaluated as a tool for feature selection.<br>
-Also compared the data spread for each features between purchase and no purchase transactions.
+Also compared the data spread for each features between purchase and no purchase transactions.<br>
 
+Feature ranking based on SelectKBest:<br>
 <img src= "Visuals/selectkbest.jpeg">
+
+Feature Ranking based on Recursive Feature Elimination with Cross Validation:<br>
 <img src= "Visuals/rfecv.jpeg">
+
+Feature Ranking based on Summation of Absolute Values Pricinpal Component
+Loadings: <br>
 <img src= "Visuals/savpcl.jpeg">
 
 ## Prediction Models
@@ -46,11 +52,13 @@ The processed data was evaluated with following prediction models:<br>
 
 Use sklearn GridSearchCV to tune models.
 
+Confusion Matrix for Best (recal = 0.92) and Second Best Model (recall = 0.99):<br>
 <table><tr>
 <td> <img src="Visuals/XGBRFClassifier_recall=0.92.jpeg" alt="Best Model"/></td>
 <td> <img src="Visuals/XGBRFClassifier_recall=0.99.jpeg" alt="Second Best Model" /></td>
 </tr></table>
 
+Feature Importance based of Best Model: <br>
 <img src="Visuals/xgbrf.jpeg">
 
 ## Conclusion
