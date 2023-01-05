@@ -50,9 +50,9 @@ The processed data was evaluated with following prediction models:<br>
 * XGB Random Forest Classifier trained with SMOTE samples
 * XGB Random Forest Classifier where classification imbalance adjusted through models hyperparameter (1st and 2nd best models)
 
-Use sklearn GridSearchCV to tune models.
+Used sklearn GridSearchCV to tune models.
 
-Confusion Matrix for Best (recal = 0.92) and Second Best Model (recall = 0.99):<br>
+Confusion Matrix for Best (recall = 0.92) and Second Best Model (recall = 0.99):<br>
 <table><tr>
 <td> <img src="Visuals/XGBRFClassifier_recall=0.92.jpeg" alt="Best Model"/></td>
 <td> <img src="Visuals/XGBRFClassifier_recall=0.99.jpeg" alt="Second Best Model" /></td>
